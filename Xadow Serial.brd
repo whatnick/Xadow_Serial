@@ -673,7 +673,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="10.3505" y="1.27" size="0.508" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="C4" library="OPL" package="AVX-A" value="10uF" x="8.382" y="2.794" smashed="yes" rot="R270">
-<attribute name="NAME" x="8.6585" y="6.3625" size="0.762" layer="25" ratio="11" rot="R270"/>
+<attribute name="NAME" x="8.4045" y="6.6165" size="0.889" layer="25" ratio="11" rot="R270"/>
 <attribute name="VALUE" x="8.16" y="4.394" size="0.635" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="R2" library="OPL" package="R0603" value="10K" x="5.08" y="2.54" smashed="yes" rot="R270">
@@ -711,10 +711,14 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="MPN" value="BSS138PS" x="20.447" y="7.366" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SUPPLIER" value="NXP" x="20.447" y="7.366" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="OC_FARNELL" value="1972664" x="20.447" y="7.366" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="20.3454" y="9.017" size="0.762" layer="26" ratio="10" rot="SMR0"/>
+<attribute name="NAME" x="20.3454" y="9.017" size="0.762" layer="26" ratio="15" rot="SMR0"/>
 <attribute name="VALUE" x="10.541" y="0.4826" size="2.0828" layer="28" ratio="10" rot="SMR90"/>
 </element>
-<element name="R7" library="Discrete" package="1206-8-3.3X2.4" value="10K" x="20.447" y="12.573" rot="MR0"/>
+<element name="R7" library="Discrete" package="1206-8-3.3X2.4" value="10K" x="20.447" y="12.573" smashed="yes" rot="MR0">
+<attribute name="NAME" x="22.225" y="13.97" size="0.8128" layer="26" ratio="11" rot="MR0"/>
+<attribute name="VALUE" x="22.606" y="10.414" size="0.8128" layer="28" ratio="10" rot="MR0"/>
+<attribute name="NAME" x="21.717" y="12.573" size="0.4572" layer="34" ratio="10" rot="MR0"/>
+</element>
 <element name="5V" library="wirepad" package="SMD1,27-2,54" value="WIREPADSMD1,27-254" x="26.416" y="14.351" smashed="yes" rot="MR90">
 <attribute name="VALUE" x="26.416" y="14.351" size="0.0254" layer="28" rot="MR90"/>
 <attribute name="NAME" x="25.8575" y="15.6465" size="0.6096" layer="26" ratio="20" rot="MR180"/>
@@ -744,11 +748,11 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="25.667" y="17.8055" size="0.6096" layer="26" ratio="20" rot="MR180"/>
 </element>
 <element name="A0" library="SparkFun-Passives" package="PAD-JUMPER-2-NO_NO_SILK" value="JUMPER-PAD-2-NO" x="3.556" y="4.445" smashed="yes" rot="MR0">
-<attribute name="NAME" x="3.575" y="3.302" size="0.4064" layer="26" ratio="15" rot="MR0"/>
+<attribute name="NAME" x="3.575" y="3.048" size="0.6096" layer="26" ratio="15" rot="MR0"/>
 <attribute name="VALUE" x="4.464" y="2.794" size="0.4064" layer="28" rot="MR0"/>
 </element>
 <element name="A1" library="SparkFun-Passives" package="PAD-JUMPER-2-NO_NO_SILK" value="JUMPER-PAD-2-NO" x="1.651" y="4.445" smashed="yes" rot="MR0">
-<attribute name="NAME" x="1.67" y="3.302" size="0.4064" layer="26" ratio="10" rot="MR0"/>
+<attribute name="NAME" x="1.67" y="3.048" size="0.6096" layer="26" ratio="15" rot="MR0"/>
 <attribute name="VALUE" x="2.559" y="2.794" size="0.4064" layer="28" rot="MR0"/>
 </element>
 </elements>
