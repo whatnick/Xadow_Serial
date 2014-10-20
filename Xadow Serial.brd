@@ -175,14 +175,14 @@
 <text x="2.794" y="3.937" size="1.27" layer="22" ratio="12" rot="MR90">Serial</text>
 <text x="1.651" y="3.937" size="0.889" layer="22" ratio="11" rot="MR90">v1.0 15/10/2014</text>
 <text x="0.508" y="3.937" size="0.889" layer="22" ratio="11" rot="MR90">by Tisham Dhar</text>
-<text x="6.858" y="17.018" size="0.8128" layer="26" font="vector" rot="MR0">IO7</text>
-<text x="9.398" y="17.018" size="0.8128" layer="26" font="vector" rot="MR0">IO6</text>
-<text x="11.938" y="17.018" size="0.8128" layer="26" font="vector" rot="MR0">IO5</text>
-<text x="14.478" y="17.018" size="0.8128" layer="26" font="vector" rot="MR0">IO4</text>
-<text x="17.018" y="17.018" size="0.8128" layer="26" font="vector" rot="MR0">IO3</text>
-<text x="19.558" y="17.018" size="0.8128" layer="26" font="vector" rot="MR0">IO2</text>
-<text x="22.098" y="17.018" size="0.8128" layer="26" font="vector" rot="MR0">IO1</text>
-<text x="24.638" y="17.018" size="0.8128" layer="26" font="vector" rot="MR0">IO0</text>
+<text x="6.858" y="17.018" size="0.8128" layer="26" font="vector" ratio="20" rot="MR0">IO7</text>
+<text x="9.398" y="17.018" size="0.8128" layer="26" font="vector" ratio="20" rot="MR0">IO6</text>
+<text x="11.938" y="17.018" size="0.8128" layer="26" font="vector" ratio="20" rot="MR0">IO5</text>
+<text x="14.478" y="17.018" size="0.8128" layer="26" font="vector" ratio="20" rot="MR0">IO4</text>
+<text x="17.018" y="17.018" size="0.8128" layer="26" font="vector" ratio="20" rot="MR0">IO3</text>
+<text x="19.558" y="17.018" size="0.8128" layer="26" font="vector" ratio="20" rot="MR0">IO2</text>
+<text x="22.098" y="17.018" size="0.8128" layer="26" font="vector" ratio="20" rot="MR0">IO1</text>
+<text x="24.638" y="17.018" size="0.8128" layer="26" font="vector" ratio="20" rot="MR0">IO0</text>
 </plain>
 <libraries>
 <library name="template">
@@ -650,7 +650,7 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="U1" library="nxpsemi" package="TSSOP_24" value="SC16IS750" x="14.478" y="13.97"/>
 <element name="X1" library="cts_crystal" package="CTS_32X25" value="CTS_32X25_SMD" x="20.32" y="2.54" smashed="yes">
-<attribute name="NAME" x="19.763" y="4.067" size="0.75" layer="25"/>
+<attribute name="NAME" x="20.652" y="4.067" size="0.75" layer="25" ratio="20"/>
 <attribute name="VALUE" x="18.62" y="0.44" size="0.75" layer="27"/>
 </element>
 <element name="C1" library="OPL" package="C0603" value="18pF" x="17.78" y="2.54" smashed="yes" rot="R270">
@@ -658,11 +658,11 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="17.5895" y="3.81" size="0.508" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="C2" library="OPL" package="C0603" value="18pF" x="22.86" y="2.667" smashed="yes" rot="R90">
-<attribute name="NAME" x="23.749" y="1.143" size="0.889" layer="25" ratio="11" rot="R180"/>
+<attribute name="NAME" x="23.368" y="1.143" size="0.889" layer="25" ratio="11" rot="R180"/>
 <attribute name="VALUE" x="23.0505" y="1.397" size="0.508" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="R1" library="OPL" package="R0603" value="1M" x="24.384" y="2.667" smashed="yes" rot="R90">
-<attribute name="NAME" x="25.4" y="1.143" size="0.889" layer="25" ratio="11" rot="R180"/>
+<attribute name="NAME" x="25.781" y="1.143" size="0.889" layer="25" ratio="11" rot="R180"/>
 <attribute name="VALUE" x="24.7015" y="1.27" size="0.508" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="C3" library="OPL" package="C0603" value="100nF" x="10.16" y="2.54" smashed="yes" rot="R90">
@@ -705,40 +705,40 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="MPN" value="BSS138PS" x="20.447" y="7.366" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SUPPLIER" value="NXP" x="20.447" y="7.366" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="OC_FARNELL" value="1972664" x="20.447" y="7.366" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="18.542" y="8.3566" size="0.762" layer="26" ratio="10" rot="SMR90"/>
+<attribute name="NAME" x="20.3454" y="9.017" size="0.762" layer="26" ratio="10" rot="SMR0"/>
 <attribute name="VALUE" x="10.541" y="0.4826" size="2.0828" layer="28" ratio="10" rot="SMR90"/>
 </element>
 <element name="R7" library="Discrete" package="1206-8-3.3X2.4" value="10K" x="20.447" y="12.573" rot="MR0"/>
 <element name="5V" library="wirepad" package="SMD1,27-2,54" value="WIREPADSMD1,27-254" x="26.416" y="14.351" smashed="yes" rot="MR90">
 <attribute name="VALUE" x="26.416" y="14.351" size="0.0254" layer="28" rot="MR90"/>
-<attribute name="NAME" x="23.635" y="14.694" size="0.762" layer="26" rot="MR180"/>
+<attribute name="NAME" x="25.8575" y="15.6465" size="0.6096" layer="26" ratio="20" rot="MR180"/>
 </element>
 <element name="GND" library="wirepad" package="SMD1,27-2,54" value="WIREPADSMD1,27-254" x="26.416" y="4.064" smashed="yes" rot="MR90">
 <attribute name="VALUE" x="26.416" y="4.064" size="0.0254" layer="28" rot="MR90"/>
-<attribute name="NAME" x="22.746" y="4.534" size="0.762" layer="26" rot="MR180"/>
+<attribute name="NAME" x="25.6035" y="5.3595" size="0.6096" layer="26" ratio="20" rot="MR180"/>
 </element>
 <element name="RX_5" library="wirepad" package="SMD1,27-2,54" value="WIREPADSMD1,27-254" x="26.416" y="6.223" smashed="yes" rot="MR90">
 <attribute name="VALUE" x="26.416" y="6.223" size="0.0254" layer="28" rot="MR90"/>
-<attribute name="NAME" x="22.238" y="6.566" size="0.762" layer="26" rot="MR180"/>
+<attribute name="NAME" x="25.286" y="7.5185" size="0.6096" layer="26" ratio="20" rot="MR180"/>
 </element>
 <element name="TX_5" library="wirepad" package="SMD1,27-2,54" value="WIREPADSMD1,27-254" x="26.416" y="8.128" smashed="yes" rot="MR90">
 <attribute name="VALUE" x="26.416" y="8.128" size="0.0254" layer="28" rot="MR90"/>
-<attribute name="NAME" x="22.238" y="8.471" size="0.762" layer="26" rot="MR180"/>
+<attribute name="NAME" x="25.286" y="9.4235" size="0.6096" layer="26" ratio="20" rot="MR180"/>
 </element>
 <element name="SCL" library="wirepad" package="SMD1,27-2,54" value="WIREPADSMD1,27-254" x="26.416" y="10.16" smashed="yes" rot="MR90">
 <attribute name="VALUE" x="26.416" y="10.16" size="0.0254" layer="28" rot="MR90"/>
-<attribute name="NAME" x="23" y="10.503" size="0.762" layer="26" rot="MR180"/>
+<attribute name="NAME" x="25.6035" y="11.4555" size="0.6096" layer="26" ratio="20" rot="MR180"/>
 </element>
 <element name="SDA" library="wirepad" package="SMD1,27-2,54" value="WIREPADSMD1,27-254" x="26.416" y="12.319" smashed="yes" rot="MR90">
 <attribute name="VALUE" x="26.416" y="12.319" size="0.0254" layer="28" rot="MR90"/>
-<attribute name="NAME" x="23" y="12.662" size="0.762" layer="26" rot="MR180"/>
+<attribute name="NAME" x="25.54" y="13.6145" size="0.6096" layer="26" ratio="20" rot="MR180"/>
 </element>
 <element name="3V3" library="wirepad" package="SMD1,27-2,54" value="WIREPADSMD1,27-254" x="26.416" y="16.51" smashed="yes" rot="MR90">
 <attribute name="VALUE" x="26.416" y="16.51" size="0.0254" layer="28" rot="MR90"/>
-<attribute name="NAME" x="23" y="16.853" size="0.762" layer="26" rot="MR180"/>
+<attribute name="NAME" x="25.667" y="17.8055" size="0.6096" layer="26" ratio="20" rot="MR180"/>
 </element>
 <element name="A0" library="SparkFun-Passives" package="PAD-JUMPER-2-NO_NO_SILK" value="JUMPER-PAD-2-NO" x="5.842" y="6.223" smashed="yes" rot="R180">
-<attribute name="NAME" x="6.115" y="7.366" size="0.4064" layer="25" rot="R180"/>
+<attribute name="NAME" x="6.115" y="7.366" size="0.4064" layer="25" ratio="15" rot="R180"/>
 <attribute name="VALUE" x="6.75" y="7.874" size="0.4064" layer="27" rot="R180"/>
 </element>
 <element name="A1" library="SparkFun-Passives" package="PAD-JUMPER-2-NO_NO_SILK" value="JUMPER-PAD-2-NO" x="7.747" y="6.223" smashed="yes" rot="R180">
