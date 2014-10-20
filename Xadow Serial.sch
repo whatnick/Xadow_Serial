@@ -1622,11 +1622,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <class number="0" name="default" width="0.1524" drill="0.3048">
 <clearance class="0" value="0.1524"/>
 </class>
-<class number="1" name="GND" width="0.1524" drill="0.3048">
+<class number="1" name="GND" width="0.3048" drill="0.3048">
 <clearance class="0" value="0.1524"/>
 <clearance class="1" value="0.1524"/>
 </class>
-<class number="3" name="usbvcc" width="0.2032" drill="0.3048">
+<class number="3" name="usbvcc" width="0.3048" drill="0.3048">
+<clearance class="0" value="0.1524"/>
 <clearance class="3" value="0.2032"/>
 </class>
 </classes>
@@ -1840,7 +1841,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="217.424" y="144.526" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
-<net name="3V3" class="0">
+<net name="3V3" class="3">
 <segment>
 <wire x1="13.97" y1="43.18" x2="33.02" y2="43.18" width="0.1524" layer="91"/>
 <label x="16.51" y="43.18" size="1.27" layer="95" ratio="10"/>
@@ -2271,7 +2272,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="D2" gate="LED" pin="-"/>
 </segment>
 </net>
-<net name="5V" class="0">
+<net name="5V" class="3">
 <segment>
 <pinref part="5V" gate="G$1" pin="P"/>
 <wire x1="170.18" y1="73.66" x2="170.18" y2="58.42" width="0.1524" layer="91"/>
