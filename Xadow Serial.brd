@@ -183,6 +183,8 @@
 <text x="19.558" y="17.018" size="0.8128" layer="26" font="vector" ratio="20" rot="MR0">IO2</text>
 <text x="22.098" y="17.018" size="0.8128" layer="26" font="vector" ratio="20" rot="MR0">IO1</text>
 <text x="24.638" y="17.018" size="0.8128" layer="26" font="vector" ratio="20" rot="MR0">IO0</text>
+<text x="22.86" y="17.018" size="0.8128" layer="25" font="vector" ratio="20">IO0</text>
+<text x="4.953" y="17.018" size="0.8128" layer="25" font="vector" ratio="20">IO7</text>
 </plain>
 <libraries>
 <library name="template">
