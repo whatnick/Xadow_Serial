@@ -489,7 +489,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <clearance class="3" value="0.2032"/>
 </class>
 </classes>
-<designrules name="LaenPCBOrder">
+<designrules name="LaenPCBOrder *">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -553,7 +553,7 @@ Please make sure your boards conform to these design rules.</description>
 <param name="mlMaxStopFrame" value="3mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
-<param name="mlViaStopLimit" value="0mil"/>
+<param name="mlViaStopLimit" value="13.5mil"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
@@ -681,7 +681,10 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="5.969" y="0.254" size="0.889" layer="25" ratio="11"/>
 <attribute name="VALUE" x="6.2865" y="3.937" size="0.508" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="J1" library="OPL" package="1X8P-2.54-2.54-11.6-3.0-BALCK-MALE" value="CONNECTOR-HEADER-8P-3461050P1" x="14.859" y="19.177" rot="R90"/>
+<element name="J1" library="OPL" package="1X8P-2.54-2.54-11.6-3.0-BALCK-MALE" value="CONNECTOR-HEADER-8P-3461050P1" x="14.859" y="19.177" smashed="yes" rot="R90">
+<attribute name="NAME" x="4.572" y="16.764" size="0.889" layer="25" ratio="11" rot="R90"/>
+<attribute name="VALUE" x="16.764" y="19.431" size="0.635" layer="27" ratio="10" rot="R180"/>
+</element>
 <element name="J4" library="template" package="12P-0.5" value="12p 0.5mm bottom contact" x="14.224" y="2.54" rot="MR0"/>
 <element name="D1" library="OPL" package="LED0603" value="RED" x="14.732" y="2.54" smashed="yes" rot="R270">
 <attribute name="NAME" x="14.224" y="5.842" size="0.889" layer="25" ratio="11" rot="R270"/>
